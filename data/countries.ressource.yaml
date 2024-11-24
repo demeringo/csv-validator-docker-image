@@ -7,7 +7,7 @@ mediatype: text/csv
 encoding: utf-8
 dialect:
   headerRows:
-    - 2
+    - 1
 schema:
   fields:
     - name: id
