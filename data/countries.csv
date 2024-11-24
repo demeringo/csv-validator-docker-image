@@ -1,5 +1,5 @@
 id,neighbor_id,name,population
 1,1,Britain,67
 2,3,France,n/a
-3,22,Germany,83
-4,,Italy,60
+3,ABC,Germany,83
+4,,Italy,60, This one is invalid
