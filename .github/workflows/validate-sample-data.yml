@@ -26,6 +26,6 @@ jobs:
                 image: ghcr.io/demeringo/csv-validator-docker-image:0.0.1-beta
                 options: -v ${{ github.workspace }}/data:/data
                 run: |
-                    ./qsv /data/countries.csv
+                    ./qsv validate /data/countries.csv
                     frictionless validate /data/countries.ressource.yaml
                      
