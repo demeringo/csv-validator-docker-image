@@ -52,12 +52,4 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-     
-    #  - name: Build Docker image
-    #     run: docker build . --file Dockerfile --tag ${{ env.REGISTRY }}/boavizta/cloud-scanner-cli:latest
-      
-    #   - name : Tag Docker image
-    #     run: docker tag ${{ env.REGISTRY }}/boavizta/cloud-scanner-cli:latest ${{ env.REGISTRY }}/boavizta/cloud-scanner-cli:$(date +%s)
 
-    #   - name: Push image
-    #     run: docker push -a ${{ env.REGISTRY }}/boavizta/cloud-scanner-cli
